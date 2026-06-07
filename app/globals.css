@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #030712;
+  color: white;
+}
+
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    #38bdf8,
+    #8b5cf6
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+
+  backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.1
+  );
+}
