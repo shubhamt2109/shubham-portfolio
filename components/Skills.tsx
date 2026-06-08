@@ -41,7 +41,8 @@ const skillGroups = [
       "CloudFormation",
       "Docker",
       "Git",
-      "CodePipeline"
+      "CodePipeline",
+      "CI/CD"
     ]
   }
 ];
